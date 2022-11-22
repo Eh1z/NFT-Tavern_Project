@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--CSS link-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--swiper CSS link-->
+    <link rel="stylesheet" href="./swiper/swiper-bundle.min.css">
+
+    <!--Boxicon link-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>NFT Website</title>
+</head>
+<body>
+
+    <!--custom scroll bar-->
+
+    <div class="progress">
+        <div class="progress-bar" id="scroll-bar">
+
+        </div>
+    </div>
+
+    <header>
+        <nav class="nav container">
+            <a href="index.html" class="logo">NFT<span>Tavern</span></a>
+            <div class="nav-icons">
+                <i class='bx bx-bell bx-tada' id="bell-icon"><span></span></i>
+                <i class='bx bxs-download'></i>
+                <div class="menu-icons">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+            </div>
+
+            <!--Menu Items-->
+
+            <div class="menu">
+                <img src="./img/Menu-Image.png" alt="darth vader">
+                <div class="navbar">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#new">New NFTs</a></li>
+                    <li><a href="#trending">Trending</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#latest">Latest</a></li>
+                </div>
+            </div>
+
+            <!--Notifications-->
+            <div class="notifications">
+                <div class="notification-box">
+                    <i class='bx bxs-check-circle' ></i>
+                    <p>
+                        Congratulations, Your NFT purchase was successful.
+                    </p>
+                </div>
+
+                <div class="notification-box">
+                    <i class='bx bx-x-circle'></i>
+                    <p>
+                        Oof, could not apply changes. Try again.
+                    </p>
+                </div>
+            </div>
+
+        </nav>
+    </header>
+
+    <!--Main Section starts here-->
+
+    <section class="home container" id="home">
+        <img src="./img/Hero-Section.jpg" alt="">
+        <div class="home-text">
+            <h1>THE DARKSIDE<br>AWAITS YOU</h1>
+            <a href="./darkside.html" class="btn">Available Now</a>
+        </div>
+    </section>
+
+    <!--Trending section starts here -->
+    <section class="trending container" id="trending">
+        <div class="heading">
+            <i class="bx bxs-flame"></i>
+            <h2>Trending NFTs</h2>
+        </div>
+        <div class="trending-content swiper">
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="./swiper/boredape1.jpg" alt="">
+                        <div class="box-text">
+                            <h2>Bored Ape Yacht Club</h2>
+                            <h3>Trending</h3>
+                            <div class="rating-download">
+                                <div class="rating">
+                                    <i class="bx bxs-star"></i>
+                                    <span>4.9</span>
+                                </div>
+                                <div href="#" class="box-btn">
+                                    <i class="bx bx-down-arrow-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="./swiper/krap-chicken.jpg" alt="">
+                        <div class="box-text">
+                            <h2>Krap Chickens</h2>
+                            <h3>Trending</h3>
+                            <div class="rating-download">
+                                <div class="rating">
+                                    <i class="bx bxs-star"></i>
+                                    <span>4.6</span>
+                                </div>
+                                <div href="#" class="box-btn">
+                                    <i class="bx bx-down-arrow-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="./swiper/Panda-Miners.jpeg" alt="">
+                        <div class="box-text">
+                            <h2>Panda Miners</h2>
+                            <h3>Trending</h3>
+                            <div class="rating-download">
+                                <div class="rating">
+                                    <i class="bx bxs-star"></i>
+                                    <span>4.4</span>
+                                </div>
+                                <div href="#" class="box-btn">
+                                    <i class="bx bx-down-arrow-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="./swiper/voxel-avatars.jpg" alt="">
+                        <div class="box-text">
+                            <h2>Voxel Avatars</h2>
+                            <h3>Trending</h3>
+                            <div class="rating-download">
+                                <div class="rating">
+                                    <i class="bx bxs-star"></i>
+                                    <span>4.8</span>
+                                </div>
+                                <div href="#" class="box-btn">
+                                    <i class="bx bx-down-arrow-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="./swiper/Rhino-King.jpg" alt="">
+                        <div class="box-text">
+                            <h2>Rhino King</h2>
+                            <h3>Trending</h3>
+                            <div class="rating-download">
+                                <div class="rating">
+                                    <i class="bx bxs-star"></i>
+                                    <span>4.8</span>
+                                </div>
+                                <div href="#" class="box-btn">
+                                    <i class="bx bx-down-arrow-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="./swiper/Drop-Calendar.jpg" alt="">
+                        <div class="box-text">
+                            <h2>Drop Dhat Calendar</h2>
+                            <h3>Trending</h3>
+                            <div class="rating-download">
+                                <div class="rating">
+                                    <i class="bx bxs-star"></i>
+                                    <span>4.2</span>
+                                </div>
+                                <div href="#" class="box-btn">
+                                    <i class="bx bx-down-arrow-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="./swiper/DeGods.jpg" alt="">
+                        <div class="box-text">
+                            <h2>DeGods</h2>
+                            <h3>Trending</h3>
+                            <div class="rating-download">
+                                <div class="rating">
+                                    <i class="bx bxs-star"></i>
+                                    <span>4.2</span>
+                                </div>
+                                <div href="#" class="box-btn">
+                                    <i class="bx bx-down-arrow-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="./swiper/AVO-cats.png" alt="">
+                        <div class="box-text">
+                            <h2>A V O Catz</h2>
+                            <h3>Trending</h3>
+                            <div class="rating-download">
+                                <div class="rating">
+                                    <i class="bx bxs-star"></i>
+                                    <span>4.1</span>
+                                </div>
+                                <div href="#" class="box-btn">
+                                    <i class="bx bx-down-arrow-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="./swiper/Armed-bears.png" alt="">
+                        <div class="box-text">
+                            <h2>Armed Bears</h2>
+                            <h3>Trending</h3>
+                            <div class="rating-download">
+                                <div class="rating">
+                                    <i class="bx bxs-star"></i>
+                                    <span>4.7</span>
+                                </div>
+                                <div href="#" class="box-btn">
+                                    <i class="bx bx-down-arrow-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-pagination">
+                    
+                </div>
+        </div>
+    </section>
+
+    <section class="new container" id="new">
+        <div class="heading">
+            <i class="bx bx-infinite"></i>
+            <h2>Latest NFTs</h2>
+        </div>
+        <div class="new-content">
+
+            <div class="box">
+                <img src="./img/WhatWasWillNeverBe.jpg" alt="">
+            
+                <div class="box-text">
+                    <h2>The Darkside Calls</h2>
+                    <h3>Latest</h3>
+                    <div class="rating-download">
+                        <div class="rating">
+                            <i class="bx bxs-star"></i>
+                            <span>4.9</span>
+                        </div>
+                        <a href="./darkside.html" class="box-btn"><i class="bx bxs-down-arrow-alt"></i></a>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./img/Crypto-bull.avif" alt="">
+            
+                <div class="box-text">
+                    <h2>Crypto Bull Society</h2>
+                    <h3>Latest</h3>
+                    <div class="rating-download">
+                        <div class="rating">
+                            <i class="bx bxs-star"></i>
+                            <span>4.8</span>
+                        </div>
+                        <a href="#" class="box-btn"><i class="bx bxs-down-arrow-alt"></i></a>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./img/Ape-kids.avif" alt="">
+           
+                <div class="box-text">
+                    <h2>Ape Kids Club</h2>
+                    <h3>Latest</h3>
+                    <div class="rating-download">
+                        <div class="rating">
+                            <i class="bx bxs-star"></i>
+                            <span>4.6</span>
+                        </div>
+                        <a href="#" class="box-btn"><i class="bx bxs-down-arrow-alt"></i></a>
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <div class="box">
+                <img src="./img/Hooligan.png" alt="">
+            
+                <div class="box-text">
+                    <h2>Hooligans</h2>
+                    <h3>Latest</h3>
+                    <div class="rating-download">
+                        <div class="rating">
+                            <i class="bx bxs-star"></i>
+                            <span>4.7</span>
+                        </div>
+                        <a href="#" class="box-btn"><i class="bx bxs-down-arrow-alt"></i></a>
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <div class="box">
+                <img src="./img/gutter-cat.avif" alt="">
+           
+                <div class="box-text">
+                    <h2>Gutter Catz</h2>
+                    <h3>Latest</h3>
+                    <div class="rating-download">
+                        <div class="rating">
+                            <i class="bx bxs-star"></i>
+                            <span>4.4</span>
+                        </div>
+                        <a href="#" class="box-btn"><i class="bx bxs-down-arrow-alt"></i></a>
+                        
+                    </div>
+                </div>
+            </div>
+
+            
+            
+            <div class="box">
+                <img src="./img/kongz.avif" alt="">
+
+                <div class="box-text">
+                    <h2>Kongz</h2>
+                    <h3>Latest</h3>
+                    <div class="rating-download">
+                        <div class="rating">
+                            <i class="bx bxs-star"></i>
+                            <span>4.5</span>
+                        </div>
+                        <a href="#" class="box-btn"><i class="bx bxs-down-arrow-alt"></i></a>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./img/Inverted-CyberPunks.png" alt="">
+            
+                <div class="box-text">
+                    <h2>Inverted Cyber Punks</h2>
+                    <h3>Latest</h3>
+                    <div class="rating-download">
+                        <div class="rating">
+                            <i class="bx bxs-star"></i>
+                            <span>4.8</span>
+                        </div>
+                        <a href="#" class="box-btn"><i class="bx bxs-down-arrow-alt"></i></a>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./img/Looki.png" alt="">
+            
+                <div class="box-text">
+                    <h2>Looki</h2>
+                    <h3>Latest</h3>
+                    <div class="rating-download">
+                        <div class="rating">
+                            <i class="bx bxs-star"></i>
+                            <span>4.3</span>
+                        </div>
+                        <a href="#" class="box-btn"><i class="bx bxs-down-arrow-alt"></i></a>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="next-page">
+            <a href="#">Next Page</a>
+        </div>
+    </section>
+
+    <!--Copyright Section-->
+
+    <div class="copyright container">
+        <a href="" class="logo">NFT<span>Tavern</span></a>
+        <p>
+            &#169; <b>Godsent Ehiz.</b>   All rights reserved.
+        </p>
+    </div>
+    
+    <!--swiper JS link-->
+    <script src="./swiper/swiper-bundle.min.js"></script>
+    <script src="./main.js">
+    </script>
+</body>
+</html>
