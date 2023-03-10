@@ -1,1 +1,1 @@
-# NFT-Tavern_Project
+# NFT Tavern Project
